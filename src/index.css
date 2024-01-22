@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+}
+
+#container {
+  padding: 8px;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.plant {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: rgb(47, 47, 47);
+  width: 424px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.plant h2 {
+  color: rgb(214, 214, 214);
+  width: 408px;
+  height: 36px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card {
+  background-color: rgb(77, 77, 77);
+  color: rgb(214, 214, 214);
+  padding: 16px;
+  border-radius: 8px;
+  width: 176px;
+  height: 50px;
+  cursor: grab;
+}
